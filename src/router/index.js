@@ -11,7 +11,7 @@ Vue.use(Router)
 
 export default new Router({
     routes : [
-        {path:'/home',component:Home},
+        {path:'/',component:Home},
         {path:'/prize_view',component:prize_list},
         {path:'/prize_edit',component:prize_edit},
         {path:'/prize_add',component:prize_add},

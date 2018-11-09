@@ -21,7 +21,7 @@
                             <i class="el-icon-menu"></i>
                             {{item.navItem}}
                         </el-menu-item>
-                        <el-submenu index="4">
+                        <!-- <el-submenu index="4">
                             <template slot="title">
                                 <i class="el-icon-location"></i>
                                 <span>抽奖</span>
@@ -31,7 +31,7 @@
                                     {{item.nav_item}}
                                 </el-menu-item>
                             </el-menu-item-group>
-                        </el-submenu>
+                        </el-submenu> -->
                     </el-menu>
                 </slot>
             </el-aside>
@@ -51,7 +51,7 @@
                    // {name:'/home',navItem:'首页'},
                     {name:'/prize_view',navItem:'奖品'},
                     {name:'/member_view',navItem:'会员'},
-                   // {name:'/draw_view',navItem:'抽奖'}
+                   {name:'/draw_view',navItem:'抽奖'}
                 ],
                 navItemList:[
                     {name:'/draw',nav_item:'第一轮'},

@@ -2,7 +2,7 @@
     <div>
         <display style="background-color: #E9EEF3;">
             <template slot="main" >
-               <div>
+               <!-- <div>
                    <div style="padding:0 0 15px 0;float:right"><el-button type="primary" plain @click="add_prize()">新增</el-button></div>
                     <el-table
                     :data="tableData"
@@ -17,11 +17,9 @@
                             <img :src="scope.row.imgUrl" style="width:50px">
                         </template>
                     </el-table-column>
-                    <!-- <el-table-column prop="prize_info" label="信息" width="200"></el-table-column> -->
                     <el-table-column fixed="right" label="操作" width="100">
                         <template slot-scope="scope">
                             <el-button @click="handleClick(scope.row)" type="text" size="small">编辑</el-button>
-                            <!-- <el-button type="text" size="small">编辑</el-button> -->
                         </template>
                     </el-table-column>
                 </el-table>
@@ -36,7 +34,7 @@
                     :total="total">
                     </el-pagination>
                 </div>
-               </div>
+               </div> -->
             </template>
         </display>
     </div>
