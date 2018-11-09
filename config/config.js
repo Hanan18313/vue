@@ -1,6 +1,6 @@
 var config = {}
 var axios = require('axios')
-config.basePath = 'http://localhost:3000';
+config.basePath = 'http://localhost:7090';
 //config.nodePath = (url) => 'http://localhost:8000'+url;
 config.base_axios = axios.create({
     baseURL:'http://localhost:3001',
